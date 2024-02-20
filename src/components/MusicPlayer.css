@@ -1,0 +1,19 @@
+.music-player {
+  display: flex;
+  justify-content: center; /* 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  padding: 20px; /* iframe 주변에 패딩 추가 */
+  background-color: #ccc; /* 회색 배경 */
+  border-radius: 20px; /* 둥근 모서리 */
+  width: 660px; /* iframe 최대 너비 + 패딩 고려 */
+  height: 440px;
+  margin: auto; /* 부모 요소 내에서 가운데 정렬 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+}
+
+.responsive-iframe {
+  max-width: 640px; /* 최대 너비 설정 */
+  width: 100%; /* 너비를 최대 너비까지 확장 */
+  aspect-ratio: 16 / 9; /* 비디오 비율 유지 */
+  border-radius: 15px; /* iframe에 둥근 모서리 추가 */
+}
